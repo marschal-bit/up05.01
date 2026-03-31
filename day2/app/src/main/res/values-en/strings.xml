@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DroidQuest</string>
+    <string name="question_text">Android OS is based on Linux kernel</string>
+    <string name="question_2">Android is developed by Microsoft</string>
+    <string name="question_3">First version of Android was released in 2008</string>
+    <string name="question_4">Android apps are written in Java/Kotlin</string>
+    <string name="question_5">Android uses FAT32 file system</string>
+    <string name="true_button">Yes</string>
+    <string name="false_button">No</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+    <!-- Новые строки для кнопок навигации (английский перевод) -->
+    <string name="prev_button">Back</string>
+    <string name="next_button">Next</string>
+</resources>
