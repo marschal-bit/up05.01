@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidQuest</string>
+    <string name="question_text">Is Android OS based on Linux kernel?</string>
+    <string name="true_button">Yes</string>
+    <string name="false_button">No</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+</resources>
