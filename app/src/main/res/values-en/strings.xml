@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidQuest</string>
+
+    <!-- Buttons -->
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="prev_button">Back</string>
+    <string name="next_button">Next</string>
+
+    <!-- Questions -->
+    <string name="question_text">Was Android created by Google?</string>
+    <string name="question_2">Was the first version of Android called Alpha?</string>
+    <string name="question_3">Does Android use Dalvik virtual machine?</string>
+    <string name="question_4">Can Android apps only be written in Java?</string>
+    <string name="question_5">Is the latest version of Android called Android 15?</string>
+
+    <!-- Toasts -->
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+</resources>
