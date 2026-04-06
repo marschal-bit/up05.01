@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">DroidQuest</string>
+    <string name="question_text">ОС Android основана на ядре Linux</string>
+    <string name="true_button">Да</string>
+    <string name="false_button">Нет</string>
+    <string name="correct_toast">Верно!</string>
+    <string name="incorrect_toast">Не верно!</string>
+
+    <!--  кнопок навигаци -->
+    <string name="prev_button">Назад</string>
+    <string name="next_button">Далее</string>
+
+    <string name="question_2">Android разработан компанией Microsoft</string>
+    <string name="question_3">Первая версия Android вышла в 2008 году</string>
+    <string name="question_4">Android приложения пишутся на языке Java/Kotlin</string>
+    <string name="question_5">Android использует файловую систему FAT32</string>
+
+    <string name="deceit_button">Обмануть!</string>
+    <string name="judgment_toast">Обманывать нельзя.</string>
+    <string name="warning_text">Вы уверены, что хотите подсмотреть ответ?</string>
+    <string name="show_answer_button">Показать ответ</string>
+
+</resources>

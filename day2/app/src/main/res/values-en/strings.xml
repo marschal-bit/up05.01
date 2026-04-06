@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidQuest</string>
+    <string name="question_text">Android OS is based on Linux kernel</string>
+    <string name="true_button">Yes</string>
+    <string name="false_button">No</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+    <!-- Navigation buttons -->
+    <string name="prev_button">Back</string>
+    <string name="next_button">Next</string>
+
+    <string name="question_2">Android is developed by Microsoft</string>
+    <string name="question_3">First version of Android was released in 2008</string>
+    <string name="question_4">Android apps are written in Java/Kotlin</string>
+    <string name="question_5">Android uses FAT32 file system</string>
+
+    <string name="deceit_button">Cheat!</string>
+    <string name="judgment_toast">Cheating is not allowed.</string>
+    <string name="warning_text">Are you sure you want to cheat?</string>
+    <string name="show_answer_button">Show Answer</string>
+</resources>
