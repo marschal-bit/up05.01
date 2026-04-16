@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BookDepository</string>
+    <string name="book_title_hint">Введите название книги</string>
+    <string name="new_book">Новая книга</string>
+    <string name="show_subtitle">Показать подзаголовок</string>
+    <string name="hide_subtitle">Скрыть подзаголовок</string>
+    <string name="subtitle_format">%1$d книг</string>
+    <string name="delete_book">Удалить книгу</string>
+    <string name="date_picker_title">Выберите дату</string>
+
+
+    <string name="book_report_text">Отправить отчёт о прочтении</string>
+    <string name="book_report">%1$s\nКнига была запланирована к прочтению %2$s и %3$s</string>
+    <string name="book_report_readed">Книга прочитана</string>
+    <string name="book_report_unreaded">Книга не прочитана</string>
+
+    <!-- Тема письма и заголовок выбора -->
+    <string name="book_report_subject">BookDepository: отчёт о прочтении</string>
+    <string name="send_report">Отправить отчёт о прочтении через</string>
+</resources>
