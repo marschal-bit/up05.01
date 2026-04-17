@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECEFF1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ===== ЧАСТЬ 1: ТАЙМЕР ===== -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Таймер"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/timer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:text="0 сек"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/start_timer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Старт"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/stop_timer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Стоп"
+            android:enabled="false"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF" />
+
+        <!-- Разделитель -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#B0BEC5"
+            android:layout_marginVertical="20dp"/>
+
+        <!-- ===== ЧАСТЬ 2: ФОНОВАЯ ЗАГРУЗКА ===== -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Загрузка данных"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_marginBottom="8dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:progressTint="#FF9800" />
+
+        <TextView
+            android:id="@+id/progress_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Прогресс: 0%"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:textColor="#FF9800"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/start_loading_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Загрузить"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#FF9800"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/cancel_loading_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Отмена"
+                android:enabled="false"
+                android:backgroundTint="#9E9E9E"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:textColor="#37474F"
+            android:textSize="13sp" />
+
+        <!-- Разделитель -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="20dp"
+            android:background="#B0BEC5" />
+
+        <!-- ===== ЗАДАНИЕ 3: ПАРАЛЛЕЛЬНЫЕ ЗАДАЧИ ===== -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Параллельные задачи"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/start_parallel_tasks_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Запустить 3 задачи"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/parallel_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:padding="12dp"
+            android:textSize="11sp"
+            android:textColor="#9C27B0" />
+
+    </LinearLayout>
+
+</ScrollView>

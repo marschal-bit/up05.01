@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#ECEFF1">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мои лабораторные"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#37474F"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="2dp"
+        android:background="#FF5722"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тема 16: Сопровождение программ"
+        android:textSize="16sp"
+        android:textColor="#607D8B"
+        android:layout_marginBottom="48dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btn_background_tasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Фоновые задачи"
+        android:textSize="15sp"
+        android:padding="14dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Уведомления"
+        android:textSize="15sp"
+        android:padding="14dp"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выберите раздел для просмотра"
+        android:textSize="11sp"
+        android:textColor="#90A4AE"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
